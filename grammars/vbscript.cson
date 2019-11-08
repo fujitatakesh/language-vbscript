@@ -60,7 +60,7 @@
     ]
   }
   {
-    'match': '(?i:\\b(If|Then|Else|ElseIf|End If|While|Wend|For|To|Each|In|Step|Case|Select|End Select|Return|Continue|Do|Until|Loop|Next|With|Exit Do|Exit For|Exit Function|Exit Property|Exit Sub)\\b)'
+    'match': '(?i:\\b(If|Then|Else|ElseIf|End If|While|Wend|For|To|Each|In|Step|Case|Select|End Select|Return|Continue|Do|Until|Loop|Next|With|End With|Exit Do|Exit For|Exit Function|Exit Property|Exit Sub)\\b)'
     'name': 'keyword.control.vbs'
   }
   {
@@ -68,7 +68,7 @@
     'name': 'keyword.operator.vbs'
   }
   {
-    'match': '(?i:\\b(Call|Class|Const|Dim|Redim|Function|Sub|Property|End Property|End sub|End Function|Set|Let|Get|New|Randomize|Option Explicit|On Error Resume Next|On Error GoTo|As)\\b)'
+    'match': '(?i:\\b(Call|Class|End Class|Const|Dim|Redim|Function|Sub|Property|End Property|End Sub|End Function|Set|Let|Get|New|Randomize|Option Explicit|On Error Resume Next|On Error GoTo|As)\\b)'
     'name': 'storage.type.vbs'
   }
   {
